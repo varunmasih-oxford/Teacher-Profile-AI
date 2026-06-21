@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "WtE-11kGrtUSa9Tpz7rrb"
+uri = "file://artifacts/varun-profile/public/avatar.png"
+type = "image"
+title = "Professional tech educator avatar"
+
+[[generated]]
+id = "U2kBVF98V5kmN6lER49MP"
+uri = "file://artifacts/varun-profile/public/cert-data.png"
+type = "image"
+title = "Data Analytics Badge"
+
+[[generated]]
+id = "8cScNWlDlte3lqFqK2KRx"
+uri = "file://artifacts/varun-profile/public/cert-ai.png"
+type = "image"
+title = "AI Certification Badge"
