@@ -16,23 +16,8 @@ export default function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-24">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-            className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 shrink-0 relative"
-          >
-            <div className="absolute inset-0 bg-gradient-to-br from-primary to-blue-600 rounded-full blur-2xl opacity-40 animate-pulse"></div>
-            <img 
-              src="/avatar.png" 
-              alt="Varun" 
-              className="w-full h-full object-cover rounded-full border-4 border-background shadow-2xl relative z-10 bg-muted/20"
-              data-testid="hero-avatar"
-            />
-          </motion.div>
-
-          <div className="flex-1 text-center lg:text-left space-y-6">
+        <div className="flex flex-col items-center lg:items-start">
+          <div className="w-full text-center lg:text-left space-y-6">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
